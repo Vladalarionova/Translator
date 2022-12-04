@@ -1,0 +1,88 @@
+.header-script {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.input-lang {
+    text-transform: uppercase;
+}
+
+.output-lang {
+    text-transform: uppercase;
+}
+
+.translation-fields {
+    width: 80%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid lightblue;
+}
+
+.languages-in-header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fields-for-text {
+    border: 2px solid lightblue;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.field-for-entry {
+    width: 45%;
+    height: 250px;
+    position: relative;
+    /*я не понимаю, как его растянуть на 100% высоты родительского блока fields-for-text, поэтому сделала не в %, а в px*/
+}
+
+.field-for-output {
+    width: 45%;
+    height: 250px;
+    position: relative;
+    /*я не понимаю, как его растянуть на 100% высоты родительского блока fields-for-text, поэтому сделала не в %, а в px*!*/
+}
+
+.textarea-1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.textarea-2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.reset-button-1 {
+    position: absolute;
+    outline: none;
+    border: 0;
+    background: transparent;
+    right: 0;
+    bottom: 0;
+}
+
+.reset-button-2 {
+    position: absolute;
+    outline: none;
+    border: 0;
+    background: transparent;
+    right: 0;
+    bottom: 0;
+}
+
+.arrow-in-header {
+    outline: none;
+    border: 0;
+    background: transparent;
+    width: 50px;
+}
+
+
+.whole-translator {
+    display: flex;
+    flex-direction: row;
+}
