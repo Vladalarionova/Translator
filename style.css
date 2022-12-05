@@ -10,17 +10,12 @@
     text-transform: uppercase;
 }
 
-.translation-fields {
-    width: 80%;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid lightblue;
+.translation-field-1 {
+    width: 45%;
 }
 
-.languages-in-header {
-    display: flex;
-    justify-content: space-evenly;
+.translation-field-2 {
+    width: 45%;
 }
 
 .fields-for-text {
@@ -83,6 +78,5 @@
 
 
 .whole-translator {
-    display: flex;
-    flex-direction: row;
+
 }
